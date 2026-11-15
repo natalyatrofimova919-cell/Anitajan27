@@ -1,0 +1,549 @@
+{
+  "source": "Approved transparent sprite sheet supplied/approved in this conversation (1000058774.png)",
+  "transparency": "Each extracted PNG retains the source alpha channel.",
+  "character": [
+    {
+      "file": "jump_right_cane.png",
+      "size_px": [
+        217,
+        312
+      ],
+      "source_bbox": [
+        300,
+        8,
+        520,
+        318
+      ],
+      "description": "Jumping, turned slightly right",
+      "note": "Re-cropped from the approved transparent character sheet; no platform pixels included."
+    },
+    {
+      "file": "jump_crouch_right.png",
+      "size_px": [
+        222,
+        312
+      ],
+      "source_bbox": [
+        1008,
+        8,
+        1235,
+        322
+      ],
+      "description": "Crouched jump, turned slightly right",
+      "note": "Re-cropped from the approved transparent character sheet; no platform pixels included."
+    },
+    {
+      "file": "stand_cane_right.png",
+      "size_px": [
+        211,
+        355
+      ],
+      "source_bbox": [
+        34,
+        20,
+        245,
+        335
+      ],
+      "description": "Standing with cane, turned slightly right",
+      "note": "Re-cropped from the approved transparent character sheet; no platform pixels included."
+    },
+    {
+      "file": "back_view.png",
+      "size_px": [
+        190,
+        347
+      ],
+      "source_bbox": [
+        795,
+        28,
+        985,
+        326
+      ],
+      "description": "Back view",
+      "note": "Re-cropped from the approved transparent character sheet; no platform pixels included."
+    },
+    {
+      "file": "jump_with_spark.png",
+      "size_px": [
+        215,
+        320
+      ],
+      "source_bbox": [
+        530,
+        45,
+        745,
+        330
+      ],
+      "description": "Jump with sparkle effect",
+      "note": "Re-cropped from the approved transparent character sheet; no platform pixels included."
+    }
+  ],
+  "platforms": [
+    {
+      "file": "grass_platform_plain.png",
+      "size_px": [
+        150,
+        73
+      ],
+      "source_bbox": [
+        321,
+        369,
+        134,
+        57
+      ]
+    },
+    {
+      "file": "grass_platform_flowers.png",
+      "size_px": [
+        146,
+        92
+      ],
+      "source_bbox": [
+        246,
+        430,
+        130,
+        76
+      ]
+    },
+    {
+      "file": "rug_platform.png",
+      "size_px": [
+        201,
+        113
+      ],
+      "source_bbox": [
+        643,
+        440,
+        185,
+        97
+      ]
+    },
+    {
+      "file": "grass_platform_daisy.png",
+      "size_px": [
+        181,
+        87
+      ],
+      "source_bbox": [
+        51,
+        445,
+        165,
+        71
+      ]
+    },
+    {
+      "file": "wooden_platform.png",
+      "size_px": [
+        182,
+        77
+      ],
+      "source_bbox": [
+        433,
+        450,
+        166,
+        61
+      ]
+    },
+    {
+      "file": "books_platform.png",
+      "size_px": [
+        149,
+        99
+      ],
+      "source_bbox": [
+        1079,
+        493,
+        133,
+        83
+      ]
+    },
+    {
+      "file": "iron_gate_platform.png",
+      "size_px": [
+        182,
+        191
+      ],
+      "source_bbox": [
+        35,
+        522,
+        166,
+        175
+      ]
+    },
+    {
+      "file": "flower_pot_platform.png",
+      "size_px": [
+        185,
+        178
+      ],
+      "source_bbox": [
+        442,
+        550,
+        169,
+        162
+      ]
+    },
+    {
+      "file": "cat_nap_platform.png",
+      "size_px": [
+        193,
+        133
+      ],
+      "source_bbox": [
+        837,
+        566,
+        177,
+        117
+      ]
+    },
+    {
+      "file": "pigeon_platform.png",
+      "size_px": [
+        162,
+        149
+      ],
+      "source_bbox": [
+        659,
+        586,
+        146,
+        133
+      ]
+    },
+    {
+      "file": "hat_platform.png",
+      "size_px": [
+        159,
+        126
+      ],
+      "source_bbox": [
+        1056,
+        596,
+        143,
+        110
+      ]
+    },
+    {
+      "file": "rocking_chair_platform.png",
+      "size_px": [
+        165,
+        229
+      ],
+      "source_bbox": [
+        229,
+        653,
+        149,
+        213
+      ]
+    },
+    {
+      "file": "suitcase_platform.png",
+      "size_px": [
+        181,
+        168
+      ],
+      "source_bbox": [
+        402,
+        732,
+        165,
+        152
+      ]
+    },
+    {
+      "file": "flower_meadow_platform.png",
+      "size_px": [
+        179,
+        116
+      ],
+      "source_bbox": [
+        44,
+        843,
+        163,
+        100
+      ]
+    },
+    {
+      "file": "stone_platform.png",
+      "size_px": [
+        121,
+        91
+      ],
+      "source_bbox": [
+        365,
+        903,
+        105,
+        75
+      ]
+    },
+    {
+      "file": "grass_platform_small.png",
+      "size_px": [
+        135,
+        78
+      ],
+      "source_bbox": [
+        211,
+        912,
+        119,
+        62
+      ]
+    }
+  ],
+  "obstacles": [
+    {
+      "file": "clothesline_obstacle.png",
+      "size_px": [
+        194,
+        152
+      ],
+      "source_bbox": [
+        226,
+        515,
+        178,
+        136
+      ]
+    },
+    {
+      "file": "spiked_ball.png",
+      "size_px": [
+        127,
+        126
+      ],
+      "source_bbox": [
+        796,
+        826,
+        111,
+        110
+      ]
+    }
+  ],
+  "bonuses": [
+    {
+      "file": "smiling_star.png",
+      "size_px": [
+        111,
+        104
+      ],
+      "source_bbox": [
+        1097,
+        386,
+        95,
+        88
+      ]
+    },
+    {
+      "file": "spring_jump_pad.png",
+      "size_px": [
+        197,
+        130
+      ],
+      "source_bbox": [
+        32,
+        716,
+        181,
+        114
+      ]
+    },
+    {
+      "file": "small_star.png",
+      "size_px": [
+        75,
+        69
+      ],
+      "source_bbox": [
+        940,
+        717,
+        59,
+        53
+      ]
+    },
+    {
+      "file": "happy_star.png",
+      "size_px": [
+        96,
+        92
+      ],
+      "source_bbox": [
+        861,
+        726,
+        80,
+        76
+      ]
+    },
+    {
+      "file": "large_star.png",
+      "size_px": [
+        123,
+        115
+      ],
+      "source_bbox": [
+        1043,
+        734,
+        107,
+        99
+      ]
+    },
+    {
+      "file": "walking_cane.png",
+      "size_px": [
+        66,
+        139
+      ],
+      "source_bbox": [
+        1179,
+        735,
+        50,
+        123
+      ]
+    },
+    {
+      "file": "star_token.png",
+      "size_px": [
+        101,
+        93
+      ],
+      "source_bbox": [
+        703,
+        751,
+        85,
+        77
+      ]
+    },
+    {
+      "file": "gold_coin.png",
+      "size_px": [
+        69,
+        70
+      ],
+      "source_bbox": [
+        961,
+        806,
+        53,
+        54
+      ]
+    },
+    {
+      "file": "gift_box.png",
+      "size_px": [
+        108,
+        110
+      ],
+      "source_bbox": [
+        1090,
+        847,
+        92,
+        94
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "file": "stone_ruins_landmark.png",
+      "size_px": [
+        237,
+        172
+      ],
+      "source_bbox": [
+        559,
+        824,
+        221,
+        156
+      ]
+    },
+    {
+      "file": "dawn_city_reference.png",
+      "size_px": [
+        202,
+        239
+      ],
+      "source_bbox": [
+        27,
+        997,
+        196,
+        233
+      ]
+    },
+    {
+      "file": "day_city_reference.png",
+      "size_px": [
+        199,
+        239
+      ],
+      "source_bbox": [
+        234,
+        997,
+        193,
+        233
+      ]
+    },
+    {
+      "file": "sunset_city_reference.png",
+      "size_px": [
+        232,
+        240
+      ],
+      "source_bbox": [
+        436,
+        997,
+        226,
+        234
+      ]
+    },
+    {
+      "file": "night_city_reference.png",
+      "size_px": [
+        211,
+        240
+      ],
+      "source_bbox": [
+        672,
+        997,
+        205,
+        234
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "file": "victory_card_reference.png",
+      "size_px": [
+        348,
+        300
+      ],
+      "source_bbox": [
+        893,
+        947,
+        338,
+        290
+      ]
+    }
+  ],
+  "character_mirrored_variants": [
+    {
+      "file": "stand_cane_left.png",
+      "derived_from": "stand_cane_right.png",
+      "method": "horizontal flip"
+    },
+    {
+      "file": "jump_left_cane.png",
+      "derived_from": "jump_right_cane.png",
+      "method": "horizontal flip"
+    },
+    {
+      "file": "jump_crouch_left.png",
+      "derived_from": "jump_crouch_right.png",
+      "method": "horizontal flip"
+    }
+  ],
+  "decorations": [
+    {
+      "file": "assets/bonuses/flower_bouquet.png",
+      "source_bbox": [
+        450,
+        548,
+        610,
+        640
+      ],
+      "note": "Isolated flower-pot decoration; animated with a gentle sway in game."
+    }
+  ]
+}
