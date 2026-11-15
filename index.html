@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>С днём рождения, Анита!</title>
+<link rel="stylesheet" href="hub.css">
+</head><body>
+<canvas id="bg"></canvas>
+<div id="stage">
+  <section class="scene" id="s1">
+    <img class="girl girl-left" src="assets/girl/greeting.webp" alt="">
+    <div class="card"><h1>Разрешите вас<br>отхэппибёздить?</h1><button class="btn" data-go="2">Разрешаю</button></div>
+  </section>
+
+  <section class="scene" id="s2">
+    <h2 class="top">задуй желание и загадай свечи<br><span>(строго в таком порядке)</span></h2>
+    <div class="cakebox" id="cakebox">
+      <img src="assets/girl/cake.webp" alt="" draggable="false">
+      <canvas id="flames"></canvas>
+      <div class="hint" id="hint"><svg viewBox="0 0 120 60"><path class="trail" d="M10 40 C 35 10, 80 10, 108 36" /></svg><i class="finger"></i><b>зажми и проведи пальцем<br>над свечами</b></div>
+    </div>
+    <div class="counter" id="counter"></div>
+  </section>
+
+  <section class="scene" id="s3">
+    <img class="girl girl-left" src="assets/girl/idea.webp" alt="">
+    <div class="card">
+      <h2>Тебя ждут три испытания</h2>
+      <p>За прохождение каждого — маленький бонус.<br>Какой? Узнаешь сама ✨</p>
+      <p class="hp">🎧 Если ещё не надела наушники — <b>самое время!</b></p>
+      <button class="btn" data-go="4">Надела!</button>
+    </div>
+  </section>
+
+  <section class="scene" id="s4">
+    <img class="girl girl-left" src="assets/girl/dancing.webp" alt="">
+    <div class="card"><h1>Готова начинать?</h1><button class="btn" id="startGames">Конечно!</button></div>
+  </section>
+
+  <section class="scene" id="sg">
+    <iframe id="frame" allow="autoplay; fullscreen"></iframe>
+    <button class="next" id="next">двигаемся дальше <span>→</span></button>
+  </section>
+
+  <section class="scene" id="sc"><div class="trial"><small>испытание</small><b id="tn">1</b><em>из 3</em></div></section>
+</div>
+<div id="fade"></div>
+<audio id="song" src="assets/song.mp3" loop preload="auto"></audio>
+<script src="hub.js?v=2"></script>
+</body></html>
