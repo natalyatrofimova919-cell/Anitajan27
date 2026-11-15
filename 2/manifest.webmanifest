@@ -1,0 +1,10 @@
+{
+  "name": "Babka Jump — к звёздам",
+  "short_name": "Babka Jump",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#11182f",
+  "theme_color": "#202b55",
+  "orientation": "portrait",
+  "icons": []
+}
